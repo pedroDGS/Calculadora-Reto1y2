@@ -38,6 +38,7 @@ public class ClsOperacion {
             case "1":
                 double suma = Math.round((operadores.Numero1() + operadores.Numero2("")) * 100.0) / 100.0;
                 JOptionPane.showMessageDialog(null, "el valor de la suma es " + suma);
+                NuevoInicio.Arrancar();
                 break;
             case "2":
                 double resta = Math.round((operadores.Numero1() - operadores.Numero2("")) * 100.0) / 100.0;
